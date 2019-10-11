@@ -107,5 +107,12 @@ var handler = function(){
 $(window).bind('load', handler);
 $(window).bind('resize', handler);
 
+$(document).ready(function(){
+	$('.hamburger').on('click', function(){
+		$(this).toggleClass('active');
+	});
+});
+
+
 
 
