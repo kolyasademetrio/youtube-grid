@@ -28,6 +28,35 @@ header{
 	}
 }
 
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 1px 6px;
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 8px;
+      cursor: pointer;
+      img {
+        width: 32px;
+        height: 32px;
+        display: block;
+      }
+    }
+  }
+}
+
 /* START: Searchbox */
 .searchbox {
 	display: flex;
