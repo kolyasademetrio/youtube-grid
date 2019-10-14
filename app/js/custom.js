@@ -20,13 +20,13 @@ function viewport(){
 /* viewport width */
 $(function(){
 	/* placeholder*/	   
-	$('input, textarea').each(function(){
+	/*$('input, textarea').each(function(){
  		var placeholder = $(this).attr('placeholder');
  		$(this).focus(function(){ $(this).attr('placeholder', '');});
  		$(this).focusout(function(){			 
  			$(this).attr('placeholder', placeholder);  			
  		});
- 	});
+ 	});*/
 	/* placeholder*/
 
 	$('.button-nav').click(function(){
@@ -110,6 +110,14 @@ $(window).bind('resize', handler);
 $(document).ready(function(){
 	$('.hamburger').on('click', function(){
 		$(this).toggleClass('active');
+	});
+
+	$('.searchinput').on('focus', function(e){
+		$(this).closest('.container').addClass('has_focus');
+	});
+
+	$('.searchinput').on('focusout', function(e){
+		$(this).closest('.container').removeClass('has_focus');
 	});
 });
 

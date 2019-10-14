@@ -60,6 +60,18 @@ header .wrapper .hamburger { margin: 0 16px 0 0; }
 
 .searchbox form .container { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-flex: 1; -webkit-flex-grow: 1; -ms-flex-positive: 1; flex-grow: 1; -webkit-flex-basis: .000000001px; -ms-flex-preferred-size: .000000001px; flex-basis: .000000001px; border: 1px solid #ccc; border-right: none; border-radius: 2px 0 0 2px; background-color: #fff; padding: 2px 6px; box-shadow: inset 0 1px 2px #eee; }
 
+.searchbox form .container.has_focus { border: 1px solid #1c62b9; box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3); }
+
+.searchbox form .container .input_wrapper { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-flex: 1; -webkit-flex-grow: 1; -ms-flex-positive: 1; flex-grow: 1; -webkit-flex-basis: .000000001px; -ms-flex-preferred-size: .000000001px; flex-basis: .000000001px; }
+
+.searchbox form .container .input_wrapper .searchinput { width: 100%; height: auto; border: 0; margin: 0 4px; background-color: transparent; box-shadow: none; font-family: 'Roboto','Noto',sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; }
+
+.searchbox form .container .keys_wrapper { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+
+.searchbox form .container .keys_wrapper a { display: inline-block; padding: 0 4px; }
+
+.searchbox form .container .keys_wrapper a img { display: block; width: 19px; height: auto; }
+
 .searchbox form .search_button { width: 65px; padding: 3px 6px; border: 1px solid #ccc; border-radius: 0 2px 2px 0; background-color: #f8f8f8; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
 
 .searchbox form .search_button .inner { width: 20px; height: 20px; opacity: .6; }
