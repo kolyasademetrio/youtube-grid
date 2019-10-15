@@ -13,6 +13,17 @@ var gulp       = require('gulp'), // Подключаем Gulp
 	autoprefixer = require('gulp-autoprefixer');// Подключаем библиотеку для автоматического добавления префиксов
 	spritesmith = require('gulp.spritesmith'); //Для автосборки спрайта
 	sourcemaps = require('gulp-sourcemaps'); //Что б в режиме разработчика показывало норм стили
+var jade = require('gulp-pug');
+
+gulp.task('pug', function() {
+	return gulp.src('app/pug/**/*.pug')
+		.pipe(plumber())
+		.pipe(jade({
+			pretty: true
+		}))
+		.pipe(gulp.dest('app'))
+		.pipe(browserSync.reload({stream: true}))
+});
 
 gulp.task('sass', function(){ // Создаем таск Sass
 	return gulp.src('app/scss/**/*.scss') // Берем источник
@@ -68,6 +79,7 @@ gulp.task('sprite', function () {
 
 
 gulp.task('watch', ['browser-sync', 'sprite'], function() {
+	gulp.watch('app/pug/**/*.pug', ['pug']);
 	gulp.watch('app/scss/**/*.scss', ['sass']); // Наблюдение за sass файлами в папке sass
 	gulp.watch(['app/img/icons/**/*.png'], ['sprite']);
 	gulp.watch('app/*.html', browserSync.reload); // Наблюдение за HTML файлами в корне проекта
