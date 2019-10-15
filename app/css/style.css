@@ -53,14 +53,40 @@ header .wrapper { height: 56px; padding: 0 16px; display: -webkit-box; display: 
 
 header .wrapper .hamburger { margin: 0 16px 0 0; }
 
+header .wrapper .buttons { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+
+header .wrapper .buttons .notifications, header .wrapper .buttons .menu, header .wrapper .buttons .meet { margin: 0 8px 0 0; }
+
+button.button_transparent { outline: none; border: none; background-color: transparent; padding: 0; }
+
+/* START: meet */
+.meet .inner { padding: 8px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+
+.meet .inner .image_wrap { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; width: 24px; height: 24px; fill: #606060; stroke: none; }
+
+/* FINISH: meet */
+/* START: menu */
+.menu .inner { padding: 8px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+
+.menu .inner .image_wrap { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; width: 24px; height: 24px; fill: #606060; stroke: none; }
+
+/* FINISH: menu */
+/* START: notifications */
+.notifications .inner { padding: 8px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+
+.notifications .inner .image_wrap { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; width: 24px; height: 24px; fill: #606060; stroke: none; }
+
+/* FINISH: notifications */
+/* START: avatar */
 .avatar { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
-.avatar button { background-color: transparent; border: none; outline: none; padding: 1px 6px; }
+.avatar button { padding: 1px 6px; }
 
-.avatar button span { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; overflow: hidden; margin: 0 8px; cursor: pointer; }
+.avatar button .img_wrap { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; overflow: hidden; margin: 0 8px; cursor: pointer; }
 
-.avatar button span img { width: 32px; height: 32px; display: block; }
+.avatar button .img_wrap img { width: 32px; height: 32px; display: block; }
 
+/* FINISH: avatar */
 /* START: Searchbox */
 .searchbox { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-flex: 1; -webkit-flex-grow: 1; -ms-flex-positive: 1; flex-grow: 1; -webkit-flex-basis: .000000001px; -ms-flex-preferred-size: .000000001px; flex-basis: .000000001px; }
 
@@ -100,9 +126,13 @@ header .wrapper .hamburger { margin: 0 16px 0 0; }
 
 .hamburger .inner .line { height: 2px; width: 100%; background-color: #606060; }
 
-.hamburger .animated { position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; -webkit-transform: scale(0); -ms-transform: scale(0); transform: scale(0); border-radius: 50%; background-color: #e7e7e7; opacity: 0; -webkit-animation: humburger-pulse-out .2s linear; animation: humburger-pulse-out .2s linear; }
+.btn { position: relative; }
 
-.hamburger.active .animated { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); opacity: 1; -webkit-animation: humburger-pulse-in .2s linear; animation: humburger-pulse-in .2s linear; }
+.btn .inner { z-index: 1; position: relative; }
+
+.btn .animated { position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; -webkit-transform: scale(0); -ms-transform: scale(0); transform: scale(0); border-radius: 50%; background-color: #e7e7e7; opacity: 0; -webkit-animation: humburger-pulse-out .2s linear; animation: humburger-pulse-out .2s linear; z-index: 0; }
+
+.btn .animated.active { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); opacity: 1; -webkit-animation: humburger-pulse-in .2s linear; animation: humburger-pulse-in .2s linear; }
 
 @-webkit-keyframes humburger-pulse-in { from { -webkit-transform: scale(0); transform: scale(0);
     opacity: 0;

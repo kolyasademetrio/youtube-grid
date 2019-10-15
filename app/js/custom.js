@@ -108,8 +108,8 @@ $(window).bind('load', handler);
 $(window).bind('resize', handler);
 
 $(document).ready(function(){
-	$('.hamburger').on('click', function(){
-		$(this).toggleClass('active');
+	$('.btn_js').on('click', function(){
+		$(this).find('.animated').toggleClass('active');
 	});
 
 	$('.searchinput').on('focus', function(e){
