@@ -15,6 +15,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -24,6 +26,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/layout/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,11 +41,31 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
               <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+=======
+>>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/pug/components/content/content.pug">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="102">
+              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+=======
+            <state relative-caret-position="374">
+              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+>>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
+>>>>>>> 6691b32aed690291a2c8f45397d314bfe3cb8ac1
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/app/scss/layout/_content.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="135" column="12" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
+=======
         <entry file="file://$PROJECT_DIR$/app/scss/layout/_aside.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -65,12 +88,27 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+>>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sass</find>
+      <find>scss</find>
+      <find>.btn</find>
+      <find>./components/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>./../buttons/</replace>
+    </replaceStrings>
+  </component>
+=======
+>>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -79,20 +117,56 @@
       <list>
         <option value="$PROJECT_DIR$/app/scss/style.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/app/scss/layout/_aside.scss" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/index.jade" />
+        <option value="$PROJECT_DIR$/app/pug/components/logo.html" />
+        <option value="$PROJECT_DIR$/app/pug/components/logo.pug" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/pug/components/searchbox.pug" />
+        <option value="$PROJECT_DIR$/app/pug/components/avatar.pug" />
+        <option value="$PROJECT_DIR$/app/js/custom.js" />
+        <option value="$PROJECT_DIR$/app/pug/components/hamburger.pug" />
+        <option value="$PROJECT_DIR$/app/pug/components/notifications.pug" />
+        <option value="$PROJECT_DIR$/app/pug/components/menu.pug" />
+        <option value="$PROJECT_DIR$/app/pug/components/meet-btn.pug" />
+=======
         <option value="$PROJECT_DIR$/app/js/custom.js" />
         <option value="$PROJECT_DIR$/app/scss/utils/_variables.scss" />
         <option value="$PROJECT_DIR$/app/scss/layout/_content.scss" />
         <option value="$PROJECT_DIR$/app/scss/layout/_aside.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
+>>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
         <option value="$PROJECT_DIR$/app/scss/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/app/scss/base/_reset.scss" />
+        <option value="$PROJECT_DIR$/app/pug/components/sidebar/sidebar.pug" />
+        <option value="$PROJECT_DIR$/app/pug/components/header/header.pug" />
+        <option value="$PROJECT_DIR$/app/scss/utils/_variables.scss" />
+        <option value="$PROJECT_DIR$/app/pug/index.pug" />
+        <option value="$PROJECT_DIR$/app/scss/base/_fonts.scss" />
+        <option value="$PROJECT_DIR$/app/scss/layout/_content.scss" />
+        <option value="$PROJECT_DIR$/app/pug/components/content/content.pug" />
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
+=======
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1948" />
+    <option name="y" value="36" />
+    <option name="width" value="1264" />
+    <option name="height" value="996" />
+=======
+  <component name="ProjectFrameBounds" extendedState="7">
+>>>>>>> 6691b32aed690291a2c8f45397d314bfe3cb8ac1
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+>>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -119,7 +193,57 @@
               <item name="youtube-grid" type="b2602c69:ProjectViewProjectNode" />
               <item name="youtube-grid" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="pug" type="462c0819:PsiDirectoryNode" />
+=======
+<<<<<<< HEAD
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-grid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-grid" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-grid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-grid" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+              <item name="roboto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-grid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-grid" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+              <item name="roboto" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotoMedium" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
+            </path>
+            <path>
+              <item name="youtube-grid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-grid" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
+            </path>
+            <path>
+              <item name="youtube-grid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-grid" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
+>>>>>>> 6691b32aed690291a2c8f45397d314bfe3cb8ac1
             </path>
           </expand>
           <select />
@@ -132,7 +256,23 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+=======
+<<<<<<< HEAD
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.SCSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\AllData\HTML-GULP\youtube-grid\app\pug\components\buttons" />
+      <recent name="C:\AllData\HTML-GULP\youtube-grid\app" />
+      <recent name="C:\AllData\HTML-GULP\youtube-grid\app\pug" />
+    </key>
+=======
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+>>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
+>>>>>>> 6691b32aed690291a2c8f45397d314bfe3cb8ac1
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -157,20 +297,56 @@
       <option name="presentableId" value="Default" />
       <updated>1570772250633</updated>
       <workItem from="1570772252206" duration="7233000" />
+<<<<<<< HEAD
+      <workItem from="1570797541501" duration="7890000" />
+      <workItem from="1571037245327" duration="4799000" />
+      <workItem from="1571042312390" duration="1166000" />
+      <workItem from="1571043690899" duration="493000" />
+      <workItem from="1571044209622" duration="2631000" />
+      <workItem from="1571046871103" duration="2093000" />
+      <workItem from="1571050082973" duration="944000" />
+      <workItem from="1571051587362" duration="759000" />
+      <workItem from="1571082512004" duration="3428000" />
+      <workItem from="1571117176147" duration="6362000" />
+      <workItem from="1571202341843" duration="7310000" />
+=======
       <workItem from="1570797541501" duration="8695000" />
+<<<<<<< HEAD
       <workItem from="1571128700741" duration="1457000" />
       <workItem from="1571155676635" duration="105000" />
       <workItem from="1571155792003" duration="386000" />
+=======
+      <workItem from="1571128700741" duration="462000" />
+>>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
+>>>>>>> 6691b32aed690291a2c8f45397d314bfe3cb8ac1
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="17876000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="45108000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="28" width="1416" height="1026" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21533923" />
+=======
+    <option name="totallyTimeSpent" value="16390000" />
+>>>>>>> 6691b32aed690291a2c8f45397d314bfe3cb8ac1
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+>>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
+>>>>>>> 6691b32aed690291a2c8f45397d314bfe3cb8ac1
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Gulp" order="3" side_tool="true" />
@@ -185,7 +361,15 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3856988" />
+=======
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.35610303" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.53954494" />
+>>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
+>>>>>>> 6691b32aed690291a2c8f45397d314bfe3cb8ac1
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -212,6 +396,78 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/scss/layout/_aside.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="28" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/logo.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/searchbox.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/buttons/hamburger-btn.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="110" column="14" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
+          <folding>
+            <marker date="1571119648246" expanded="true" signature="532:784" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="95" column="83" selection-start-line="95" selection-start-column="83" selection-end-line="95" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/buttons/avatar-btn.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/buttons/notifications-btn.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/buttons/menu-btn.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+=======
     <entry file="file://$PROJECT_DIR$/app/scss/utils/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -236,14 +492,112 @@
     <entry file="file://$PROJECT_DIR$/app/scss/layout/_aside.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
+<<<<<<< HEAD
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+=======
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+>>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
+>>>>>>> 6691b32aed690291a2c8f45397d314bfe3cb8ac1
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/custom.js">
+    <entry file="file://$PROJECT_DIR$/app/scss/layout/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="165">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/buttons/meet-btn.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/base/_reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="115" column="16" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/sidebar/sidebar.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/header/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/hqdefault.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2023">
           <caret line="119" column="60" selection-start-line="119" selection-start-column="60" selection-end-line="119" selection-end-column="60" />
+=======
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="69" column="12" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#1;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#span#0;n#button#0;n#form#0;n#div#2;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/utils/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/base/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/layout/_content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="135" column="12" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
+=======
+        <state relative-caret-position="1887">
+          <caret line="111" column="35" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
+>>>>>>> 6691b32aed690291a2c8f45397d314bfe3cb8ac1
         </state>
       </provider>
     </entry>
@@ -251,13 +605,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+>>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/pug/index.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/pug/components/content/content.pug">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="102">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+=======
+        <state relative-caret-position="374">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+>>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
+>>>>>>> 6691b32aed690291a2c8f45397d314bfe3cb8ac1
         </state>
       </provider>
     </entry>
