@@ -1,45 +1,45 @@
 doctype html
 html(xmlns='http://www.w3.org/1999/xhtml')
-  head
-    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
-    meta(name='format-detection', content='telephone=no')
-    meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1')
-    title Главная
-    meta(name='description', content='')
-    meta(name='keywords', content='')
-    link(rel='icon', type='image/x-icon', href='favicon.ico')
-    link(rel='stylesheet', type='text/css', href='css/style.css')
-  body.loaded
-    // BEGIN BODY
-    .main-wrapper
-      // BEGIN CONTENT
-      main.content
-        .wrapper
-      // CONTENT EOF
-      // BEGIN HEADER
-      header
-        .wrapper
-          include ./components/hamburger-btn.pug
-          include ./components/logo.pug
-          include ./components/searchbox.pug
-          .buttons
-            include ./components/meet-btn.pug
-            include ./components/menu-btn.pug
-            include ./components/notifications-btn.pug
-            include ./components/avatar-btn.pug
+    head
+        meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+        meta(name='format-detection', content='telephone=no')
+        meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1')
+        title Главная
+        meta(name='description', content='')
+        meta(name='keywords', content='')
+        link(rel='icon', type='image/x-icon', href='favicon.ico')
+        link(rel='stylesheet', type='text/css', href='css/style.css')
+    body.loaded
+        // BEGIN BODY
+        .main-wrapper
+            // BEGIN CONTENT
+            main.content
+                .wrapper
+            // CONTENT EOF
+            // BEGIN HEADER
+            header
+                .wrapper
+                    include ./components/hamburger-btn.pug
+                    include ./components/logo.pug
+                    include ./components/searchbox.pug
+                    .buttons
+                        include ./components/meet-btn.pug
+                        include ./components/menu-btn.pug
+                        include ./components/notifications-btn.pug
+                        include ./components/avatar-btn.pug
 
-      // HEADER EOF
-      // BEGIN SIDEBAR
-      aside
-        .wrapper
-      // SIDEBAR EOF
-    .icon-load
-    // BODY EOF
-    script(src='js/jquery-3.0.0.min.js')
-    script(src='js/jquery-migrate-1.4.1.min.js')
-    //
-      <script src="js/components/jquery.fancybox.js" ></script>
-      <script src="js/components/jquery.formstyler.js" ></script>
-      <script src="js/components/slick.js" ></script>
-      <script src="js/components/jquery.mCustomScrollbar.js" ></script>
-    script(src='js/custom.js')
+            // HEADER EOF
+            // BEGIN SIDEBAR
+            aside
+                .wrapper
+            // SIDEBAR EOF
+        .icon-load
+        // BODY EOF
+        script(src='js/jquery-3.0.0.min.js')
+        script(src='js/jquery-migrate-1.4.1.min.js')
+        //
+          <script src="js/components/jquery.fancybox.js" ></script>
+          <script src="js/components/jquery.formstyler.js" ></script>
+          <script src="js/components/slick.js" ></script>
+          <script src="js/components/jquery.mCustomScrollbar.js" ></script>
+        script(src='js/custom.js')
