@@ -9,6 +9,31 @@ html(xmlns='http://www.w3.org/1999/xhtml')
         meta(name='keywords', content='')
         link(rel='icon', type='image/x-icon', href='favicon.ico')
         link(rel='stylesheet', type='text/css', href='css/style.css')
+<<<<<<< HEAD
+    body.loaded
+        // BEGIN BODY
+        .main-wrapper
+            // BEGIN CONTENT
+            main.content
+                .wrapper
+            // CONTENT EOF
+            // BEGIN HEADER
+            header
+                .wrapper
+                    include ./components/hamburger-btn.pug
+                    include ./components/logo.pug
+                    include ./components/searchbox.pug
+                    .buttons
+                        include ./components/meet-btn.pug
+                        include ./components/menu-btn.pug
+                        include ./components/notifications-btn.pug
+                        include ./components/avatar-btn.pug
+
+            // HEADER EOF
+            // BEGIN SIDEBAR
+            aside
+                .wrapper
+=======
         //link(rel='stylesheet', type='text/css', href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic')
     body.loaded
         // BEGIN BODY
@@ -22,6 +47,7 @@ html(xmlns='http://www.w3.org/1999/xhtml')
             // HEADER EOF
             // BEGIN SIDEBAR
             include ./components/sidebar/sidebar.pug
+>>>>>>> 6691b32aed690291a2c8f45397d314bfe3cb8ac1
             // SIDEBAR EOF
         .icon-load
         // BODY EOF
