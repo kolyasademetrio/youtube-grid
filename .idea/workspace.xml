@@ -4,7 +4,11 @@
     <list default="true" id="83bc0aab-6b0e-4ba3-b326-9be52430145f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/app/pug/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pug/index.pug" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+>>>>>>> first
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +17,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="youtube-grid" />
+  </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
 <<<<<<< HEAD
 =======
@@ -43,9 +51,13 @@
               <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
 =======
 >>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
+=======
+    <leaf>
+>>>>>>> first
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/pug/components/content/content.pug">
+        <entry file="file://$PROJECT_DIR$/app/pug/index.pug">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="102">
               <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
@@ -89,6 +101,10 @@
             <state relative-caret-position="408">
               <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
 >>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
+=======
+            <state relative-caret-position="319">
+              <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+>>>>>>> first
             </state>
           </provider>
         </entry>
@@ -168,9 +184,6 @@
     <option name="height" value="1056" />
 >>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
   </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -194,6 +207,7 @@
               <item name="youtube-grid" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
 <<<<<<< HEAD
+<<<<<<< HEAD
               <item name="pug" type="462c0819:PsiDirectoryNode" />
 =======
 <<<<<<< HEAD
@@ -211,22 +225,31 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="fonts" type="462c0819:PsiDirectoryNode" />
               <item name="roboto" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="pug" type="462c0819:PsiDirectoryNode" />
+>>>>>>> first
             </path>
             <path>
               <item name="youtube-grid" type="b2602c69:ProjectViewProjectNode" />
               <item name="youtube-grid" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="fonts" type="462c0819:PsiDirectoryNode" />
               <item name="roboto" type="462c0819:PsiDirectoryNode" />
               <item name="RobotoMedium" type="462c0819:PsiDirectoryNode" />
 =======
               <item name="scss" type="462c0819:PsiDirectoryNode" />
 >>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
+=======
+              <item name="pug" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+>>>>>>> first
             </path>
             <path>
               <item name="youtube-grid" type="b2602c69:ProjectViewProjectNode" />
               <item name="youtube-grid" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="scss" type="462c0819:PsiDirectoryNode" />
 <<<<<<< HEAD
 =======
@@ -244,6 +267,11 @@
               <item name="utils" type="462c0819:PsiDirectoryNode" />
 >>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
 >>>>>>> 6691b32aed690291a2c8f45397d314bfe3cb8ac1
+=======
+              <item name="pug" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+>>>>>>> first
             </path>
           </expand>
           <select />
@@ -286,6 +314,17 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -324,15 +363,19 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="17876000" />
 =======
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="45108000" />
+=======
+    <option name="totallyTimeSpent" value="45954000" />
+>>>>>>> first
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="28" width="1416" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21533923" />
 =======
     <option name="totallyTimeSpent" value="16390000" />
@@ -347,6 +390,9 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
 >>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
 >>>>>>> 6691b32aed690291a2c8f45397d314bfe3cb8ac1
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+>>>>>>> first
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Gulp" order="3" side_tool="true" />
@@ -362,6 +408,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3856988" />
 =======
 <<<<<<< HEAD
@@ -370,6 +417,9 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.53954494" />
 >>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
 >>>>>>> 6691b32aed690291a2c8f45397d314bfe3cb8ac1
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36944744" />
+>>>>>>> first
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -442,13 +492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="95" column="83" selection-start-line="95" selection-start-column="83" selection-end-line="95" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index1.html" />
     <entry file="file://$PROJECT_DIR$/app/pug/components/buttons/avatar-btn.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -530,16 +574,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/components/header/header.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/hqdefault.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/hqdefault.jpg" />
     <entry file="file://$PROJECT_DIR$/app/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -573,13 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -626,6 +654,20 @@
           <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
 >>>>>>> 2f5775daf63d5e503db14a9f617a01738e09d6f4
 >>>>>>> 6691b32aed690291a2c8f45397d314bfe3cb8ac1
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/header/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
         </state>
       </provider>
     </entry>
